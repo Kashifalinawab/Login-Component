@@ -1,0 +1,81 @@
+.body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* LoginPage */
+
+#mainDiv {
+    margin: 10% 10% 25% 35%;
+    /* border: 4px solid rgb(17, 11, 51); */
+}
+
+#h1main{
+   color: darkblue;
+    font-style:italic ;
+}
+
+#mainSpan1{
+color: rgb(17, 11, 51);
+font-style:italic; 
+font-weight: bold;
+font-size: 25px;
+}
+#mainSpan2
+{
+    color: rgb(17, 11, 51);
+    font-style:italic; 
+    font-weight: bold;
+    font-size: 25px;
+ 
+}
+
+#mainPageIn1
+{
+    background-color:rgb(17, 11, 51);
+    color: yellow ;
+    border: 3px double red;  
+    margin-left: 85px;      
+}
+
+#mainPageIn2{
+    background-color:rgb(17, 11, 51);
+    color: yellow;
+    border: 3px double red; 
+    margin-left: 37px; 
+}
+
+#mainbtn1{
+    margin-top: 20px;
+    margin-left: 70px;
+    color: darkorange;
+    background-color: darkred;
+    border-radius: 8px;
+}
+
+#mainbtn2{
+    margin-left: 20px;
+    color:chartreuse;
+    background-color:midnightblue;
+    border-radius: 8px;
+}
+
+/* NewUser */
+#input1{
+    margin: 10% 10% 25% 35%;
+}
+
+#newUserSpan1{
+    color:rgb(99, 15, 15);
+    font-style:italic; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#newUserSpan2{
+    color: rgb(99, 15, 15);
+    font-style:italic; 
+    font-weight: bold;
+    font-size: 25px;
+}

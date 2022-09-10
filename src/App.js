@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import HomePage from "./HomePage";
+import { Route, Routes } from "react-router-dom";
+import NewUser from "./NewUser";
+import LogInPage from "./LogInPage";
+import ProtectedRoute from "./ProtectedRoute";
 
-function App() {
+function Application() {
+  const [database, setDatabase] = useState([
+    {
+      userId: "tom@xyz",
+      password: "tom123",
+    },
+
+    {
+      userId: "sunny@xyz",
+      password: "sunny123",
+    },
+
+    {
+      userId: "joy@xyz",
+      password: "joy123",
+    },
+  ]);
+
+  console.log(database);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage database={database} />} />
+        <Route
+          path="/newuser"
+          element={<NewUser setDatabase={setDatabase} />}
+        />
+        <Route
+          path="/loginpage"
+          element={<ProtectedRoute Component={LogInPage} />}
+        />
+        {/* ////<LogInPage /> */}
+      </Routes>
+    </>
   );
 }
 
-export default App;
+export default Application;
