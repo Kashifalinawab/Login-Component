@@ -30,9 +30,9 @@ function NewUser({setDatabase}) {
 
     return (
         <div id='mainDivNewUser'>
-            <span> <ImHome onClick={()=>{goToPage("/")}}/></span>
+            <h1 id='h1NewUser1'> <ImHome onClick={()=>{goToPage("/")}}/></h1>
             
-            <h2> Please Write Your Correct Detail </h2>
+            <h2 id='h2NewUser'> Please Write Your Correct Detail </h2>
 
             <div id="input1">
 

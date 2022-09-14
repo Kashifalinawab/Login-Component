@@ -1,0 +1,214 @@
+.body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* HomePage */
+
+#mainDiv {
+    margin: 10% 10% 25% 25%;
+    /* border: 4px solid rgb(17, 11, 51); */
+}
+
+#h1main{
+    margin-left: 15px;
+    font-size: 50px;
+   color: darkblue;
+    font-style:italic ;
+    margin-bottom: 50px;
+}
+
+#mainSpan1{
+    margin-left: 90px;
+color: rgb(17, 11, 51);
+font-style:italic; 
+font-weight: bold;
+font-size: 25px;
+}
+#mainSpan2
+{
+    margin-left: 90px;
+    color: rgb(17, 11, 51);
+    font-style:italic; 
+    font-weight: bold;
+    font-size: 25px;
+ 
+}
+
+#mainPageIn1
+{
+    background-color:rgb(17, 11, 51);
+    color: yellow ;
+    border: 3px double red;  
+    margin-left: 120px;      
+}
+
+#mainPageIn2{
+    background-color:rgb(17, 11, 51);
+    color: yellow;
+    border: 3px double red; 
+    margin-left: 45px; 
+}
+
+#mainbtn1{
+    margin-top: 40px;
+    margin-left: 170px;
+    color: darkorange;
+    background-color: darkred;
+    border-radius: 8px;
+}
+
+#mainbtn2{
+    margin-left: 70px;
+    color:chartreuse;
+    background-color:midnightblue;
+    border-radius: 8px;
+}
+
+/* NewUser */
+
+#h1NewUser1{
+    text-align: right;
+    color: blue;
+}
+
+#h2NewUser{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline double red;
+}
+
+
+
+
+#input1{
+    margin: 10% 10% 25% 35%;
+}
+
+#newUserSpan1{
+    color:rgb(99, 15, 15);
+    font-style:italic; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#newUserSpan2{
+    color: rgb(99, 15, 15);
+    font-style:italic; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Area1{
+    background-color:burlywood;
+    color: yellow ;
+    border: 3px double paleturquoise;  
+    margin-left: 120px; 
+}
+
+#Area2{
+    background-color:burlywood;
+    color: yellow ;
+    border: 3px double paleturquoise;   
+    margin-left: 50px; 
+
+}
+
+/* 
+    margin-left: 70px;
+    color:teal;
+    background-color:springgreen;
+    border-radius: 8px;
+
+    <!-- HTML !-->
+<button class="button-50" role="button">Button 50</button> */
+
+/* CSS */
+#btnSub{
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 2px 2px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 50;
+  line-height: 10px;
+  margin: 40px 5px 10px 160px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: left;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#btnSub:focus {
+  text-decoration: none;
+}
+
+#btnSub:hover {
+  text-decoration: none;
+}
+
+#btnSub:active {
+  box-shadow: rgba(143, 95, 95, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+#btnSub:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 700px) {
+  #btnSub {
+    padding: 4px 10px;
+  }
+}
+
+
+
+/* loginPage */
+
+#signOut{
+    color: red;
+    text-align: right;
+}
+
+#h1UserPage{
+    color: darkgreen;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: underline yellowgreen double;
+}
+
+
+
+#image1{
+    width: 800px;
+    height: 500px;
+    margin: 40px 20px 0px 250px;
+}
+
+#smallimgDiv{
+    background-color: #000;
+}
+
+#image2,#image3,#image4,#image5,#image6{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
