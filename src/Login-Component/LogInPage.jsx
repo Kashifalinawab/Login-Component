@@ -12,10 +12,10 @@ function LogInPage() {
 
   return (
     <div>
-      <h1 id="signOut">
+      <h3 id="signOut">
         <RiLogoutCircleLine onClick={signOutFun} />
-      </h1>
-      <h2>Login Succecfull</h2>
+      </h3>
+      <h1 id="h1userpage">Login successfully</h1>
       <div id="infoDivUserPage">
         <h2 id="h1UserPage">Information About React</h2>
       </div>
